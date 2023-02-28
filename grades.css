@@ -1,0 +1,27 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+.course-name ul{
+    align-items: center;
+    padding-left: 10rem;
+    margin-top: 5rem;
+    list-style-type: none;
+    display: flex;
+    border-right: 1px solid black;
+    gap: 20rem;
+}
+.course-name ul li h2{
+    font-size: 15px;
+}
+.gpa h2{
+    font-size: 18px;
+    position: absolute;
+    bottom: 5rem;
+    left: 8rem;
+
+}

@@ -1,0 +1,64 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+.title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-bar{
+    margin-bottom: 20px;
+    background-color: rgb(75, 198, 198);
+    padding: 12px;
+    margin-left: 50px;
+    float: left;
+    width: 25%;
+    height: 80vh;
+    position: absolute;
+    box-shadow: 2px 1px 2px black;
+    border-radius: 10px;
+    transition: all 0.5s;
+    
+}
+.nav-bar:hover{
+    background-color: #fef1f1;
+}
+.nav-bar:start{
+    animation: forwards;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    
+}
+.nav-bar li{
+    list-style: none;
+    margin-left: 15px;
+    padding: 6px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 5rem;
+    letter-spacing: 2px;
+}
+.nav-bar a:hover{
+  color: blue;
+}
+
+img{
+ position: relative;
+ width: 400px;
+ height: auto;
+ text-align: right;
+ float: right;
+}
+.img{
+    position: relative;
+    width: 50%;
+    float: right;
+    text-align:end;
+    margin-top: 15px;
+    margin-right: 25px;
+}
